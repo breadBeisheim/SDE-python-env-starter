@@ -1,0 +1,17 @@
+def thank_you(name):
+    print(f"Dear {name}, thank you for the heartfelt gift. \nThanks, Parker.")
+
+family_gifts = ["Cassie", "Cameron", "Ben", "Michael"]
+friend_gifts = ["Dj", "Alex", "Adrian", "Ana"]
+
+def print_thank_you_card_fam():
+    for name in family_gifts:
+        print(f"Dear {name}, thank you for the heartfelt gift. \nThanks, Parker.")
+
+print_thank_you_card_fam()
+
+def print_thank_you_card_friend():
+    for name in friend_gifts:
+        print(f"Dear {name}, thank you for the heartfelt gift. \nThanks, Parker.")
+
+print_thank_you_card_friend()
